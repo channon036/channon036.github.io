@@ -1,0 +1,16 @@
+body {
+    background-color: #aaaa2c;
+    align-content: center;
+}
+
+h1, p {
+    color: blue;
+    text-align: center;
+}
+
+.generated-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
