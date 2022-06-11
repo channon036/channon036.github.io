@@ -1,12 +1,68 @@
-body {
-    background-color: #aaaa2c;
-    align-content: center;
+/* colour scheme
+darkest_blue = #11142C
+dark_blue = #38315F
+blue = #574F84
+lightest_light = #FFFFE2
+light = #FFF8C7 */
+
+@font-face {
+    font-family: avenir_next;
+    src: url("./assests/AvenirNextLTPro-Regular.otf");
+    /* File to be stored at your site */
 }
 
-h1, p {
-    color: blue;
-    text-align: center;
+body {
+    align-content: centre;
+    font-family: avenir_next;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-image: url('assests/blackmarble edited.png');
+    background-position-x: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #11142C;
 }
+
+div {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+}
+
+.small-unhighlighted {
+    color: #FFF8C7;
+    font-size: small;
+    display: inline;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+}
+
+.small-highlighted {
+    color: #11142C;
+    font-size: small;
+    background-color: #FFF8C7;
+    display: inline;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+}
+
+.big-highlighted {
+    color: #11142C;
+    font-size: xx-large;
+    background-color: #FFF8C7;
+    display: inline;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+
+.big-unhighlighted {
+    color: #FFF8C7;
+    font-size: xx-large;
+    display: inline;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+
 
 .generated-image {
     display: block;
