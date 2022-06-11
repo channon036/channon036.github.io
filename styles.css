@@ -59,6 +59,17 @@ div {
     display: inline;
     margin-top: 0.5cm;
     margin-bottom: 0.5cm;
+    border-radius: 4px;
+}
+
+.medium-highlighted {
+    color: #11142C;
+    font-size: x-large;
+    background-color: #FFF8C7;
+    display: inline;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    border-radius: 4px;
 }
 
 .big-highlighted {
@@ -68,6 +79,7 @@ div {
     display: inline;
     margin-top: 1cm;
     margin-bottom: 1cm;
+    border-radius: 4px;
 }
 
 .big-unhighlighted {
@@ -80,6 +92,11 @@ div {
 
 .medium-unhighlighted {
     color: #574F84;
+    font-size: x-large;
+}
+
+.medium-unhighlighted-yellow {
+    color: #FFF8C7;
     font-size: x-large;
 }
 
@@ -119,8 +136,13 @@ div {
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .column {
+        width: 100%;
+        text-align: center;
+    }
+
+    .two-columns {
         width: 100%;
         text-align: center;
     }
@@ -128,7 +150,14 @@ div {
     .follow-the-line {
         border-right: 1px solid #FFF8C7;
         width: 50%;
-        height: 400px;
+        height: 300px;
+    }
+
+    .short-follow-the-line {
+        border-right: 1px solid #FFF8C7;
+        width: 20%;
+        height: 100px;
+    
     }
 
 }
@@ -136,3 +165,45 @@ div {
 .highlight-images {
     height: 100px;
 }
+
+.two-columns {
+    width:50%;
+    float: left;
+    align-items: center;
+}
+
+.short-follow-the-line {
+    border-right: 1px solid #FFF8C7;
+    width: 36%;
+    height: 200px;
+
+}
+
+.footer {
+    text-align: center;
+    padding-right: 28%;
+}
+
+.get-in-touch-button{
+  border: none;
+  background-color: #FFF8C7;
+  padding: 14px 60px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.get-in-touch-button:hover {background: #574F84;}
+
+.up-to-button{
+    border: none;
+    background-color: #574F84;
+    padding: 14px 80px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 4px;
+  }
+  
+  .up-to-button:hover {background: #FFF8C7;}
