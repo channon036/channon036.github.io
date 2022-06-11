@@ -14,19 +14,26 @@ light = #FFF8C7 */
 body {
     align-content: centre;
     font-family: avenir_next;
-    margin-right: 10%;
-    margin-left: 10%;
     background-image: url('assests/blackmarble edited.png');
     background-position-x: right;
-    background-size: contain;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-color: #11142C;
 }
 
 div {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 4%;
+    margin-bottom:6%;
+    margin-right:5%;
+    margin-left:5%;
     width: 80%;
+}
+
+.follow-the-line {
+    border-right: 1px solid #FFF8C7;
+    width: 32%;
+    height: 600px;
+    
 }
 
 .small-unhighlighted {
