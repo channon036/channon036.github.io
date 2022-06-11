@@ -12,28 +12,36 @@ light = #FFF8C7 */
 }
 
 body {
-    align-content: centre;
+    align-content: center;
+    align-items: center;
     font-family: avenir_next;
     background-image: url('assests/blackmarble edited.png');
     background-position-x: right;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-color: #11142C;
+    background-color: #11122A;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 div {
-    margin-top: 4%;
-    margin-bottom:6%;
-    margin-right:5%;
-    margin-left:5%;
-    width: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+.div-header {
+    margin-top: 7%;
+    margin-bottom: 6%;
+    margin-left: 2%;
+
 }
 
 .follow-the-line {
     border-right: 1px solid #FFF8C7;
-    width: 32%;
-    height: 600px;
-    
+    width: 36%;
+    height: 300px;
+
 }
 
 .small-unhighlighted {
@@ -70,10 +78,61 @@ div {
     margin-bottom: 1cm;
 }
 
+.medium-unhighlighted {
+    color: #574F84;
+    font-size: x-large;
+}
 
-.generated-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.left {
+    width: 23.5%;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.middle {
+    width: 8%;
+}
+
+.right {
+    width: 47%;
+    text-align: left;
+    padding-top: 2%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.key-highlights {
+    vertical-align: middle;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        text-align: center;
+    }
+
+    .follow-the-line {
+        border-right: 1px solid #FFF8C7;
+        width: 50%;
+        height: 400px;
+    }
+
+}
+
+.highlight-images {
+    height: 100px;
 }
