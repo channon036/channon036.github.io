@@ -82,8 +82,6 @@ div {
     color: #FFF8C7;
     font-size: xx-large;
     display: inline;
-    margin-top: 1cm;
-    margin-bottom: 1cm;
 }
 
 .medium-unhighlighted {
@@ -116,15 +114,17 @@ div {
 
 .column {
     float: left;
-    padding-left: 3%;
-    padding-right: 3%;
-    margin: auto;
-
+    margin-left: 3%;
+    margin-right: 3%;
+    height:100px;
+    padding: 10px 0;
 }
 
 .left {
     width: 24%;
     text-align: right;
+    line-height: 50px;
+    vertical-align: middle;
 }
 
 .middle {
@@ -134,6 +134,8 @@ div {
 .right {
     width: 47%;
     text-align: left;
+    top: 50%;
+    bottom: 50%;
 }
 
 /* Clear floats after the columns */
