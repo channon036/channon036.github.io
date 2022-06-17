@@ -27,6 +27,7 @@ body {
 div {
     margin-top: 0%;
     margin-bottom: 0%;
+    vertical-align: middle;
 }
 
 .div-header {
@@ -86,7 +87,8 @@ div {
 
 .medium-unhighlighted {
     color: #574F84;
-    font-size: x-large;
+    font-size: 21px;
+    padding: 0px 0;
 }
 
 .medium-unhighlighted-yellow {
@@ -116,26 +118,31 @@ div {
     float: left;
     margin-left: 3%;
     margin-right: 3%;
-    height:100px;
-    padding: 10px 0;
+    height: 150px;
 }
 
 .left {
-    width: 24%;
+    width: 165px;
     text-align: right;
-    line-height: 50px;
-    vertical-align: middle;
+}
+
+.left p {
+    padding-top: 37.5px;
 }
 
 .middle {
-    width: 8%;
+    width: 100px;
 }
 
 .right {
-    width: 47%;
+    width: 361px;
     text-align: left;
-    top: 50%;
-    bottom: 50%;
+    height: 150px;
+}
+
+.highlight-text{
+    vertical-align: middle;
+    align-items: center;
 }
 
 /* Clear floats after the columns */
@@ -143,6 +150,7 @@ div {
     content: "";
     display: table;
     clear: both;
+    padding: 5px 0;
 }
 
 .key-highlights {
@@ -151,6 +159,7 @@ div {
 
 .highlight-images {
     height: 100px;
+    padding-top: 25px;
 }
 
 .two-columns {
@@ -198,7 +207,7 @@ div {
     margin: 10px;
     width: 250px;
     text-align: center;
-    color:#FFF8C7;
+    color: #FFF8C7;
 }
 
 .up-to-button:hover {
