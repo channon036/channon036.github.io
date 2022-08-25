@@ -17,11 +17,11 @@ body {
     font-family: avenir_next;
     background-image: url('assests/blackmarble edited.png');
     background-position-x: right;
-    background-size: 100%;
+    background-size: 60%;
     background-repeat: no-repeat;
     background-color: #11122A;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
 div {
@@ -31,16 +31,14 @@ div {
 }
 
 .div-header {
-    margin-top: 7%;
+    margin-top: 5%;
     margin-bottom: 6%;
     margin-left: 2%;
-    transform: translateY(0.05%);
-    transition: all 1s;
 }
 
 .follow-the-line {
     border-right: 1px solid #FFF8C7;
-    width: 36%;
+    width: 20px;
     height: 300px;
 
 }
@@ -76,7 +74,7 @@ div {
     margin-bottom: 0.5cm;
     border-radius: 4px;
     padding: 2px;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 .big-unhighlighted {
@@ -88,7 +86,6 @@ div {
 .medium-unhighlighted {
     color: #574F84;
     font-size: 21px;
-    padding: 0px 0;
 }
 
 .medium-unhighlighted-yellow {
@@ -118,7 +115,7 @@ div {
     float: left;
     margin-left: 3%;
     margin-right: 3%;
-    height: 150px;
+    height: 100px;
 }
 
 .left {
@@ -127,7 +124,7 @@ div {
 }
 
 .left p {
-    padding-top: 37.5px;
+    padding-top: 10px;
 }
 
 .middle {
@@ -137,7 +134,7 @@ div {
 .right {
     width: 361px;
     text-align: left;
-    height: 150px;
+    height: 100px;
 }
 
 .highlight-text{
@@ -150,7 +147,7 @@ div {
     content: "";
     display: table;
     clear: both;
-    padding: 5px 0;
+    padding: 2px 0;
 }
 
 .key-highlights {
@@ -159,24 +156,24 @@ div {
 
 .highlight-images {
     height: 100px;
-    padding-top: 25px;
 }
 
 .two-columns {
     width: 50%;
     float: left;
     align-items: center;
+    margin-left: 30%;
 }
 
 .short-follow-the-line {
     border-right: 1px solid #FFF8C7;
-    width: 36%;
+    width: 60%;
     height: 200px;
 }
 
 .footer {
     text-align: center;
-    padding-right: 28%;
+    margin-left: 23%;
 }
 
 .get-in-touch-button {
@@ -220,26 +217,27 @@ div {
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 2000px) {
     .column {
-        width: 100%;
+        width: 80%;
         text-align: center;
+        margin-left:30%;
     }
 
     .two-columns {
-        width: 100%;
+        width: 80%;
         text-align: center;
     }
 
     .follow-the-line {
         border-right: 1px solid #FFF8C7;
-        width: 50%;
-        height: 300px;
+        width: 71%;
+        height: 200px;
     }
 
     .short-follow-the-line {
         border-right: 1px solid #FFF8C7;
-        width: 50%;
+        width: 71%;
         height: 100px;
         margin: 20px;
     }
@@ -250,4 +248,12 @@ div {
         width: 100%;
     }
 
+}
+
+.my_image:hover {
+    opacity: 100%;
+}
+
+.my_image {
+    opacity: 65%;
 }
